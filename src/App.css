@@ -23,3 +23,12 @@ a {
   text-decoration: none;
 }
 /* --------------------------------------- */
+
+
+/* App */
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: #03045E;
+  color: white;
+}

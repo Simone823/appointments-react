@@ -8,31 +8,31 @@ const Appointments = () => {
     const appointments_data = [
         {
             id: 1,
-            image: 'https://res.cloudinary.com/thomasdea/image/upload/v1612341193/react-api-course/tizio-palestra_naoqwo.jpg',
+            image: 'img/tizio-palestra_naoqwo.jpg',
             person: 'Fabio Robiola',
             text: 'No pain no Gain XOXO PALESTRA MUSCOLI POTENZA'
         },
         {
             id: 2,
-            image: 'https://res.cloudinary.com/thomasdea/image/upload/v1612341197/react-api-course/tizia-cuffie_xf2bae.jpg',
+            image: 'img/tizia-cuffie_xf2bae.jpg',
             person: 'Sabrina Cortelli',
             text: "La musica è per l'anima quello che la ginnastica è per il corpo."
         },
         {
             id: 3,
-            image: 'https://res.cloudinary.com/thomasdea/image/upload/v1612341184/react-api-course/tizio-giacca_jvzktv.jpg',
+            image: 'img/tizio-giacca_jvzktv.jpg',
             person: 'Mike Russel',
             text: "Non permettere a nessuno di dirti che non sei capace"
         },
         {
             id: 4,
-            image: 'https://res.cloudinary.com/thomasdea/image/upload/v1612341204/react-api-course/tipa-occhiali_svc9jp.jpg',
+            image: 'img/tipa-occhiali_svc9jp.jpg',
             person: 'Rebecca Orlando',
             text: "La fotografia è passione e amore, è l’emozione passeggera, che arriva e subito vola via."
         },
         {
             id: 5,
-            image: 'https://res.cloudinary.com/thomasdea/image/upload/v1612341200/react-api-course/tizio_awlq7r.jpg',
+            image: 'img/tizio_awlq7r.jpg',
             person: 'Christian Minerva',
             text: "Non mangerei un hamburger nemmeno se mi pagassero 40,000 dollari"
         },
@@ -67,7 +67,7 @@ const Appointments = () => {
                                         <li className='d-flex align-items-center gap-3 px-3 py-4' key={appointment.id}>
                                             {/* image */}
                                             <figure className='user-image shadow flex-shrink-0'>
-                                                <img src={appointment.image} alt={appointment.person}/>
+                                                <img src={require(`../assets/${appointment.image}`)} alt={appointment.person}/>
                                             </figure>
 
                                             {/* description */}

@@ -16,6 +16,8 @@ img {
 ul,
 ol {
   list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* a */
@@ -31,4 +33,33 @@ a {
   height: 100vh;
   background: #03045E;
   color: white;
+}
+
+/* list appointments */
+.list-appointments {
+  color: #AAF0F8;
+}
+
+.list-appointments li:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.list-appointments .user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.list-appointments .description h5 {
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.list-appointments .description p {
+  font-size: 12px;
+  font-style: italic;
 }

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "img/tizio-palestra_naoqwo.jpg",
+        "person": "Fabio Robiola",
+        "text": "No pain no Gain XOXO PALESTRA MUSCOLI POTENZA"
+    },
+    {
+        "id": 2,
+        "image": "img/tizia-cuffie_xf2bae.jpg",
+        "person": "Sabrina Cortelli",
+        "text": "La musica è per l'anima quello che la ginnastica è per il corpo."
+    },
+    {
+        "id": 3,
+        "image": "img/tizio-giacca_jvzktv.jpg",
+        "person": "Mike Russel",
+        "text": "Non permettere a nessuno di dirti che non sei capace"
+    },
+    {
+        "id": 4,
+        "image": "img/tipa-occhiali_svc9jp.jpg",
+        "person": "Rebecca Orlando",
+        "text": "La fotografia è passione e amore, è l’emozione passeggera, che arriva e subito vola via."
+    },
+    {
+        "id": 5,
+        "image": "img/tizio_awlq7r.jpg",
+        "person": "Christian Minerva",
+        "text": "Non mangerei un hamburger nemmeno se mi pagassero 40,000 dollari"
+    }
+]
